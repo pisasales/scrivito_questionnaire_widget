@@ -1,0 +1,32 @@
+.qst-widget {
+    text-align: center;
+    // height: 100vh;
+    min-height: 20vh;
+
+    #react-qst-wrapper {
+        height: calc(100% - 2em);
+        text-align: left;
+    }
+
+    .app-link {
+        color: #61dafb;
+    }
+
+    #main-page-container {
+        text-align: center;
+        padding-top: 2em;
+    }
+
+    #main-page-container svg {
+        width: 2em;
+        height: 2em;
+    }
+
+    #main-page-container h3 {
+        padding-top: 2em;
+    }
+
+    #main-page-container #info-mail {
+        padding-top: 1em;
+    }
+}
