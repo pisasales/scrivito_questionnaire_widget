@@ -11,15 +11,15 @@ Scrivito.provideEditingConfig("QstWidget", {
     },
     actGid: {
       title: 'Activity ID',
-      description: "Optional, e.g. 1D5E6B454194479CA635CF0CE46160DF",
+      description: "Optional context activity ID",
     },
     conGid: {
       title: 'Contact ID',
-      description: "Optional, e.g. F62F7AF81A878185E030A8C00C016215",
+      description: "Optional context contact ID",
     },
     proGid: {
       title: 'Project ID',
-      description: "Optional, e.g. 5D43347E49984F7E8C0AFAF6660034DE",
+      description: "Optional context project ID",
     },
     lngSelector: {
       title: 'Show languages selector?',
@@ -27,7 +27,7 @@ Scrivito.provideEditingConfig("QstWidget", {
     },
     qstSelector: {
       title: 'Show questionnaires selector?',
-      description: "Questionnaires selector allows to choose another questionnaire from list. When is on, questionnaire header is not shown.",
+      description: "Questionnaires selector allows to choose another questionnaire from list. When is OFF, questionnaire header is not shown.",
     },
   },
 
