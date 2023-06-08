@@ -56,7 +56,6 @@ Scrivito.provideComponent("QstWidget", ({ widget }) => {
     >
       <QuestionnaireApi.QuestionnaireGlobal
         supportsMultipleQuestionnaires={widget.get("qstSelector")}
-        showLanguageSelect={widget.get("lngSelector")}  // TODO: check QST component why it is always showing language selector
         showFooter={true}
         components={components}
         /// when context is undefined QST component takes data from URL

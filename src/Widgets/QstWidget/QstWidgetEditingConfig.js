@@ -21,19 +21,14 @@ Scrivito.provideEditingConfig("QstWidget", {
       title: 'Project ID',
       description: "Optional context project ID",
     },
-    lngSelector: {
-      title: 'Show languages selector?',
-      description: "Languages selector allows to choose other language from list.",
-    },
     qstSelector: {
       title: 'Show questionnaires selector?',
       description: "Questionnaires selector allows to choose another questionnaire from list. When is OFF, questionnaire header is not shown.",
     },
   },
 
-  properties: ['qstGid','actGid','conGid','proGid','lngSelector', 'qstSelector'],
+  properties: ['qstGid','actGid','conGid','proGid', 'qstSelector'],
   initialContent: {
-    lngSelector: true,
     qstSelector: true,
   },
 
